@@ -32,7 +32,9 @@ html {
 * {
     box-sizing: border-box;
 }
-
+a {
+    text-decoration: none;
+}
 .navigation {
     background-color: var(--dark-blue-3); 
     box-shadow: 0px 5px 5px var(--light-grey-4);
