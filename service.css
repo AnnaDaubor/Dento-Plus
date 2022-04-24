@@ -71,6 +71,15 @@ a {
     .img-arrow-2 {
         opacity: 0;
     }
+
+    .review{
+        flex-direction: column;
+    }
+
+    .location {
+        padding: 50px 0px;
+        width: calc(100% / 1 - var(--offset));
+    }
 }
 
 @media (max-width:1024px){
@@ -80,12 +89,21 @@ a {
     }
 }
 
-@media (max-width:400px){
+@media (max-width:550px){
         .service-description {
         width: calc(100% / 12 * 12 - var(--offset));
         text-align:center;
         line-height: 0.5;
         font-size: 50%;
+    }
+
+    .review-direction{
+        flex-direction: column;
+    }
+
+    .location {
+        padding: 50px 0px;
+        width: calc(100% / 1 - var(--offset));
     }
 }
 
