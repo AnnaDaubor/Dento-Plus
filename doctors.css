@@ -40,7 +40,7 @@ a {
     background-color: var(--light-grey-1);
 }
 .container {
-    max-width: 1025px;
+    max-width: 1024px;
     margin: 0 auto;
 }
 
@@ -87,6 +87,7 @@ input {
     border-radius: 15px;
     margin-top: 10px;
     margin-left: 50px;
+    cursor: pointer;
 }
 
 .icon-search {
@@ -133,6 +134,7 @@ button {
 
 button:hover {
     background-color: var(--light-blue-2);
+    color: var(--dark-blue-5);
 }
 
 
@@ -152,3 +154,8 @@ button:hover {
     font-weight: 700;
 }
 
+@media (max-width: 768px) {
+    .row{
+        flex-direction: column;
+    }
+}
